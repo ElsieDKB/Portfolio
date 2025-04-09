@@ -161,10 +161,6 @@
 				<textarea name= "message" rows="4" placeholder="Votre message" required></textarea>
 
 				<button type="submit">Envoyer</button>
-				<?php
-		    $msg = mail('elsiebrunache@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], "From: " . $_POST['email']);
-		    ?>
-				
 			</form>
 		</div>
     </div>
